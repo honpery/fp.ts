@@ -1,0 +1,29 @@
+{
+    "name": "fp.ts",
+    "version": "1.0.0",
+    "description": "The tutorial of functional program using TypeScript.",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha -r ts-node/register ./test/**/*.ts --watch --watch-extensions ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/honpery/fp.ts.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/honpery/fp.ts/issues"
+    },
+    "homepage": "https://github.com/honpery/fp.ts#readme",
+    "devDependencies": {
+        "@types/chai": "^4.0.4",
+        "@types/mocha": "^2.2.42",
+        "chai": "^4.1.1",
+        "mocha": "^3.5.0",
+        "ts-node": "^3.3.0",
+        "tslint": "^5.6.0",
+        "typescript": "^2.4.2"
+    }
+}
